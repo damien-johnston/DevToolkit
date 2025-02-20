@@ -19,7 +19,7 @@ Security & Monitoring – Scripts for security analysis, logging, and monitoring
 Config & Setup – JSON, YAML, and other configuration templates for easy setup.
 
 ## Repository Structure
-
+```
 /DevToolkit
 │── /Project1
 │   ├── /src       # Source code (C#, Python, etc.)
@@ -42,7 +42,7 @@ Config & Setup – JSON, YAML, and other configuration templates for easy setup.
 │   ├── LICENSE
 │── .gitignore
 │── README.md  # Main repo introduction
-
+```
 ### Getting Started
 
 Prerequisites
@@ -62,6 +62,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/your-username/DevToolkit.git
+
 cd DevToolkit
 
 Follow the setup instructions in each project’s README.
