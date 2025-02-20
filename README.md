@@ -45,7 +45,7 @@ Config & Setup – JSON, YAML, and other configuration templates for easy setup.
 ```
 ### Getting Started
 
-Prerequisites
+#### Prerequisites
 
 .NET SDK (if working with .NET projects)
 
@@ -57,7 +57,7 @@ SQL Server, PostgreSQL, or other supported databases
 
 Azure CLI (if using cloud-related tools)
 
-Installation
+#### Installation
 
 Clone the repository:
 
@@ -67,7 +67,7 @@ cd DevToolkit
 
 Follow the setup instructions in each project’s README.
 
-Usage
+#### Usage
 
 Each project contains its own README with usage instructions. To run a script or tool, navigate to the relevant directory and follow the provided steps.
 
@@ -76,7 +76,7 @@ Example:
 cd Project1/scripts
 powershell -ExecutionPolicy Bypass -File script.ps1
 
-Contributing
+#### Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -90,11 +90,11 @@ Push to your branch and create a pull request
 
 See CONTRIBUTING.md for more details.
 
-License
+#### License
 
 DevToolkit is licensed under the Apache 2.0 License, allowing for open collaboration and modification.
 
-Contact
+#### Contact
 
 For questions or suggestions, feel free to open an issue or contact the repository owner.
 
