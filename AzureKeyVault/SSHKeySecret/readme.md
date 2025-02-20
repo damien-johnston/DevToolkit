@@ -27,13 +27,13 @@ Connect-AzAccount
 
 Connect to Azure
 Configure and run import-pem-to-key-vault.ps1 to import a private key as a secret.
-Configure and run get-pem-key-secret-from-key-vault.ps1 to save the export the secret as a valid key.
+Configure and run extract-pem-key-secret-from-key-vault.ps1 to save the export the secret as a valid key.
 
 ```.\import-pem-to-key-vault.ps1```
 
 Once complete verify the secret is valid for use.
 Copy the secret out of key vault. This can be done manually via the Azure portal or by configuring and executing 
 
-```.\get-pem-key-secret-from-key-vault.ps1``` 
+```.\extract-pem-key-secret-from-key-vault.ps1``` 
 
 Use the created pem file for a ssh tunnel or other operation. 
