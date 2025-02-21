@@ -1,0 +1,10 @@
+// Query for failed requests and exception details if they exist.
+union   app('application insights instance 1').requests,
+        app('application insights instance 2').requests,
+        app('application insights instance 3').requests,
+        app('application insights instance 4').requests,
+        app('application insights instance 5').requests,
+// Request failure details
+| where success=="False"
+| join kind= leftouter (exceptions) on operation_Id 
+| order by timestamp desc
